@@ -1,0 +1,47 @@
+.main {
+		
+		margin-top: 100px;
+}
+
+.input {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+	display: block;             /*if instead you input inline the elements will be in a line and not in a column*/
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border: 1px solid #dfe1e5;
+	border-radius: 24px;
+	height: 24px;                           /*It´s better to use line-height instead since it works in all browsers if it´s only for 1 line of text*/
+}
+
+.img {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	width: 300px;
+	display: block;
+}
+
+.btn {
+	margin-left: 4px;
+	margin-right: 4px;
+	margin-top: 30px;
+	Padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 16px;
+	padding-right: 16px;
+	border-radius: 4px;
+	border: none;
+	font-size: 14px;
+	background-color: #dfe1e5;
+}
+
+.btn-wrapper {
+	display: flex;
+	justify-content: center;
+	
+}
